@@ -1,0 +1,12 @@
+{
+  "bindings": [
+    {
+      "authLevel": "function",
+      "type": "blobTrigger",
+      "direction": "in",
+      "name": "inputblob",
+      "path": "sop-raw/{name}",
+      "connection": "AzureWebJobsStorage"
+    }
+  ]
+}
